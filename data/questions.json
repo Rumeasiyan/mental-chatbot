@@ -1,0 +1,82 @@
+{
+    "personal_info": {
+        "age_group": {
+            "type": "select",
+            "label": "Age Group",
+            "options": [
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "55+"
+            ],
+            "required": true
+        },
+        "gender": {
+            "type": "select",
+            "label": "Gender",
+            "options": [
+                "Male",
+                "Female",
+                "Non-binary",
+                "Prefer not to say"
+            ],
+            "required": true
+        }
+    },
+    "mental_health_assessment": {
+        "stress_level": {
+            "type": "slider",
+            "label": "How would you rate your current stress level?",
+            "min": 1,
+            "max": 10,
+            "required": true
+        },
+        "social_media_usage": {
+            "type": "select",
+            "label": "How many hours do you spend on social media daily?",
+            "options": [
+                "Less than 1 hour",
+                "1-3 hours",
+                "3-5 hours",
+                "More than 5 hours"
+            ],
+            "required": true
+        },
+        "main_concerns": {
+            "type": "multiselect",
+            "label": "What are your main mental health concerns? (Select all that apply)",
+            "options": [
+                "Anxiety",
+                "Depression",
+                "Stress",
+                "Social Media Addiction",
+                "Low Self-esteem",
+                "Sleep Issues",
+                "Work-life Balance",
+                "Other"
+            ],
+            "required": true
+        }
+    },
+    "support_preferences": {
+        "preferred_support": {
+            "type": "multiselect",
+            "label": "What type of support are you looking for? (Select all that apply)",
+            "options": [
+                "Coping Strategies",
+                "Emotional Support",
+                "Professional Guidance",
+                "Self-improvement Tips",
+                "Stress Management",
+                "Other"
+            ],
+            "required": true
+        },
+        "goals": {
+            "type": "text_area",
+            "label": "What are your main goals for using this chatbot?",
+            "required": true
+        }
+    }
+}
