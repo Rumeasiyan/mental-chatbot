@@ -62,8 +62,7 @@ with col1:
     """)
     
     # Call-to-action button
-    if st.button("Start Your Journey", type="primary", key="start_journey"):
-        st.session_state['start_journey'] = True
+    if st.button("Start Your Journey", type="primary"):
         st.switch_page("pages/02_Assessment.py")
 
 with col2:
